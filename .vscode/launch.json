@@ -7,12 +7,16 @@
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceFolder}",
-            "executable": "./bin/executable.elf",
+            "executable": "./build/Debug/FanController.elf",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
-            "servertype": "openocd"
-            "preLaunchTask": "",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32g4x.cfg"
+            ],
+            "preLaunchTask": "CMake: build",
             "svdFile": null,
             
         }
