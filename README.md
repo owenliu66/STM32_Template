@@ -14,5 +14,6 @@
 # How 2 Run
 Download Required stuff and add to PATH  
 Generate the build stuff with `cmake --preset <target>`. With target in development being `Debug` typically.  
-Debug using the provided Debug config
+Run and Debug Debug using the provided Debug config, Cortex Debug  
+Cry as nothing works
 
