@@ -1,15 +1,15 @@
 # Required stuff
 ## applications
-[CMAKE](https://cmake.org/download/)
-[ARM toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
-[openocd](https://openocd.org/pages/getting-openocd.html)
-[ninja](https://github.com/ninja-build/ninja/releases)
+* [CMAKE](https://cmake.org/download/)  
+* [ARM toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)  
+* [openocd](https://openocd.org/pages/getting-openocd.html)  
+* [ninja](https://github.com/ninja-build/ninja/releases)  
 ## vscode extensions
-CMAKE
-Cortex Debug
+* CMAKE  
+* Cortex Debug
 ### Optional Vscode extensions
-RTOS Views
-Serial Monitor
+* RTOS Views
+* Serial Monitor
 
 # How 2 Run
 Download Required stuff and add to PATH  
