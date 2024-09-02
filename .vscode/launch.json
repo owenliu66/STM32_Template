@@ -17,7 +17,7 @@
                 "target/stm32g4x.cfg"
             ],
             "preLaunchTask": "CMake: build",
-            "svdFile": null,
+            "svdFile": "${workspaceFolder}/.vscode/stm32g431.svd"
             
         }
     ]
